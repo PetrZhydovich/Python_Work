@@ -10,17 +10,17 @@
 
 
 
-# list1 = [1, 2, 3, 5, 2, 2, 1, 13, 4, 2]
-# list2 = []
+list1 = [1, 2, 3, 5, 2, 2, 1, 13, 4, 2]
+list2 = []
 
-# for item in list1:
-#     if item not in list2:
-#       list2.append(item)  
+for item in list1:
+    if item not in list2:
+      list2.append(item)  
 
-# print(list2)
+print(list2)
 
-# list3 = list(set(list1))
-# print(list3)
+list3 = list(set(list1))
+print(list3)
 
 
 
@@ -57,16 +57,16 @@
 
 
 
-my_tuple = (1, "werwer", True, 1.23, 345345, "werwer", 12, False)
-my_dict = {}
+# my_tuple = (1, "werwer", True, 1.23, 345345, "werwer", 12, False)
+# my_dict = {}
 
-for item in my_tuple:
-    # if type(item) in my_dict.keys():
-    #     my_dict[type(item)] = item
-    key = my_dict.setdefault(type(item), list())
-    key.append(item)
+# for item in my_tuple:
+#     # if type(item) in my_dict.keys():
+#     #     my_dict[type(item)] = item
+#     key = my_dict.setdefault(type(item), list())
+#     key.append(item)
 
-print(my_dict)
+# print(my_dict)
 
 
 
@@ -75,14 +75,14 @@ print(my_dict)
 # Удалите из него все элементы, которые встречаются дважды.
 
 
-list = [1, 5, 7, 2, 3, 4, 5, 3, 5, 7]
+# list = [1, 5, 7, 2, 3, 4, 5, 3, 5, 7]
 
-for item in list:
-    if list.count(item) > 1:
-        for i in range(list.count(item)):
-            list.remove(item)
+# for item in list:
+#     if list.count(item) > 1:
+#         for i in range(list.count(item)):
+#             list.remove(item)
 
-print(list)
+# print(list)
 
 
 # Создайте вручную список с повторяющимися целыми числами. 
