@@ -10,4 +10,5 @@ def trans_matrix(a):
     return matrix
 
 t_matrix = [[9, 1], [8, 2], [7, 3]]
+
 print(trans_matrix(t_matrix))  
